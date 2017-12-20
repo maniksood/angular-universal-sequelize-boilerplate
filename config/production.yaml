@@ -1,0 +1,7 @@
+db_main:
+  host: 162.243.145.36
+  port: 3306
+  username: root
+  password: Idoolocal#321
+  database: idoolocal
+
