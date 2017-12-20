@@ -1,11 +1,11 @@
 {
-  "name": "idoolocal2",
+  "name": "angular-universal-sequelize",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "globalnpms": "npm install -g pm2 nodemon concurrently mysql mysql2 ts-node node-cmd",
-    "server": "nodemon --delay 5 ./build/server/idoolocal.js",
-    "server:nonstop": "cd ./build/server && pm2 start idoolocal.js",
+    "server": "nodemon --delay 5 ./build/server/server.js",
+    "server:nonstop": "cd ./build/server && pm2 start server.js",
     "watch:server": "tsc -p ./server -w",
     "watch:client": "ng build -w",
     "watch:all": "concurrently --kill-others \"tsc -p ./server -w\" \"ng build -w\" ",

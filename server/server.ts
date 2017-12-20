@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8000;
 const BUILD_FOLDER = join(process.cwd(), 'build');
 
 app.use(favicon(join(BUILD_FOLDER, 'client', 'favicon.ico')))
