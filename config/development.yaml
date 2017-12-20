@@ -1,6 +1,7 @@
 db_main:
-  host: localhost
+  host: 0.0.0.0
   port: 3306
-  username: root
-  password: Idoolocal#321
-  database: idoolocal
+  username: xxx
+  password: xxx
+  database: xxx
+
