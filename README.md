@@ -23,6 +23,9 @@ Install global dependencies: (This will install global dependencies which are us
 ## Running the app
 There are some steps in order to do development and deployment easily.
 
+### Building Server Rendering Files
+`npm run build:ssr`
+
 ### Development
 #### Code changes watch
 To watch the changes in the code during development (both angular and node/express) and compile the changes to javascript/es6, run: (NOTE: Keep this command running in the terminal and use another terminal window to start the server)
